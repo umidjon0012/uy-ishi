@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    outline: none;
+    list-style: none;
+  }
+  body {
+    background-color: #dedede;
+  }
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  header {
+    background-color: #fff;
+    padding: 20px 60px;
+  }
+  
+  header ul div,
+  header ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  header ul {
+    justify-content: space-between;
+  }
+  
+  ul a {
+    color: #4f6173;
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+  }
+  ul button {
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #999999;
+    border: 1px solid #e0e6ea;
+  }
+  .top-header {
+    height: 50px;
+    background-color: #303b44;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b4c1d2;
+    color: white;
+  }
+  .active {
+    border-bottom: 4px solid #60bcfa;
+  }
+  
+  .right img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+  }
+  
+  .right span {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  section {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px;
+    align-items: flex-start;
+  }
+  
+  section .left {
+    flex: 0.7;
+  }
+  
+  section .right {
+    flex: 0.3;
+  }
+  
+  section .right,
+  section .left {
+    background-color: #fff;
+    padding: 20px;
+  }
+  .right .title,
+  .left .title {
+    border-bottom: 1px solid #ededed;
+    line-height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #4f6173;
+    margin-bottom: 20px;
+  }
+  
+  .left .input-box {
+    display: flex;
+  }
+  
+  .left .input-box input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #eeeeee;
+    color: #8d939a;
+    font-size: 15px;
+  }
+  
+  .card {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ededed;
+    display: block;
+  }
+  
+  .card .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    color: #4f6173;
+    font-size: 21px;
+  }
+  
+  .price {
+    display: block;
+  }
+  
+  .price .inner-price {
+    color: #4abfb4;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .unit {
+    font-size: 14px;
+    color: #aeb8bc;
+    font-weight: 400;
+  }
+  .details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .card .tags {
+    justify-content: flex-start;
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .tag {
+    padding: 2px 8px;
+    border: 1px solid #d2dae2;
+    border-radius: 5px;
+    color: #9eabb8;
+    font-size: 13px;
+  }
+  .border-bottom {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+  }
+  
+  .bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f3f5f7;
+    margin: 20px -20px -20px -20px;
+  }
+  
+  .bottom-row button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e2e5;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .bottom-row button:first-child {
+    background-color: #4abfb4;
+  }
+  
+  .bottom-row button:last-child {
+    color: #8e9a9f;
+    background-color: #d2d6da;
+  }
+  ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  ul li label {
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  ul li input {
+    accent-color: #4abfb4;
+    width: 19px;
+    height: 19px;
+    border-radius: 3px;
+  }
+  
